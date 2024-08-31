@@ -2,7 +2,7 @@
   "name": "vite-react-router-template",
   "private": true,
   "version": "0.0.0",
-  "type": "module","homepage": "vite-react-router-template",
+  "type": "module","homepage": "REST",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

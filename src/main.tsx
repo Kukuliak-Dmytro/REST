@@ -7,15 +7,15 @@ import  {Contact}  from "./pages/Contact.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/vite-react-router-template/",
+    path: "/REST/",
     element: <App />,
     children: [
       {
-        path: "/vite-react-router-template/",
+        path: "/REST/",
         element: <Home />,
       },
       {
-        path: "/vite-react-router-template/contact",
+        path: "/REST/contact",
         element: <Contact />,
       },
     ],
