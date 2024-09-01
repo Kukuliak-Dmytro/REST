@@ -2,10 +2,8 @@ import styles from './Browse.module.css'
 import BookCard from '../../Components/BookCard/BookCard'
 import { useEffect, useState } from 'react'
 export function Browse() {
-    //not that it's a private key, I just did this for practice
-    require('dotenv').config();
-    const BASE_URL = process.env.api_key;
-
+    //public API for testing
+    const BASE_URL = "https://library-api.postmanlabs.com";
     interface Book {
         id: string;
         title: string;

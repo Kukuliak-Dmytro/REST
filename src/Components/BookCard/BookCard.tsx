@@ -18,6 +18,7 @@ interface BookCardProps {
 export default function BookCard({ book }: BookCardProps) {
   return (
     <div className={styles.card}>
+        
       <p>Id: {book.id}</p>
       <p>Title: {book.title}</p>
       <p>Author: {book.author}</p>
