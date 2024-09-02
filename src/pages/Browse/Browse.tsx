@@ -2,7 +2,7 @@ import styles from './Browse.module.css'
 import BookCard from '../../Components/BookCard/BookCard'
 import { useEffect, useState } from 'react'
 export function Browse() {
-    //public API for testing
+    //public API for testing, no need for API_KEY
     const BASE_URL = "https://library-api.postmanlabs.com";
     interface Book {
         id: string;

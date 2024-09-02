@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Browse } from './pages/Browse/Browse.tsx';
-import { Create } from './pages/Create.tsx';
+import { Create } from './pages/Create/Create.tsx';
 import { Delete } from './pages/Delete.tsx';
 import { Update } from './pages/Update.tsx';
 import { Read } from './pages/Read.tsx';
